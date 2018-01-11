@@ -1,0 +1,35 @@
+.ddsmoothmenu-v ul {
+    padding: 15px;
+    margin: 0;
+    list-style-position: inside;
+    list-style-image: url(../images/icon_dmsp.png);
+}
+.ddsmoothmenu-v li:last-child{
+}
+.ddsmoothmenu-v ul li {
+    position: relative;
+}
+.ddsmoothmenu-v ul li a {
+	font-size:15px;
+	background:url(../images/line_dmsp.png) no-repeat bottom center;
+    color: #000;
+    display: block;
+    padding: 10px;
+	text-transform:uppercase;
+	transition: 0.3s;
+}
+.ddsmoothmenu-v ul li a:hover{
+	color:#db8800;
+	text-indent:10px;
+}
+.ddsmoothmenu-v ul li .active {
+}
+.ddsmoothmenu-v ul li ul{
+	position: absolute;
+	width: 250px;
+	top: 0;
+	font-weight: normal;
+	visibility: hidden;
+	background:#eaeaea;
+	padding:0px 0px;
+}

@@ -1,0 +1,44 @@
+body { background: url("../images/background.png"); }
+
+.img { max-width: 100%; }
+
+.navbar { border-bottom: 3px solid #008ed6; }
+
+.navbar-color { background: #2b71cc; }
+
+.collapse.navbar-collapse ul li a.nav-link { color: #fff; }
+.collapse.navbar-collapse ul li a.nav-link:hover { color: #000; }
+
+a.navbar-brand { color: #fff; border: 1px solid #ccc; border-radius: 0.2rem; padding: 0.3rem; }
+a.navbar-brand:hover { color: #ccc; }
+
+.nav-item { padding: 0 1em; }
+.nav-item:hover { background: #F9f461; }
+
+.navbar-toggler { color: #fff; border: 1px solid #ccc; padding: 0.3rem; font-size: 1.2rem; }
+
+.dropdown-menu { background: grey; }
+
+@media (max-width: 575px) { a.navbar-brand { font-size: 1rem; }
+  .carousel-item img { height: 10rem; }
+  .carousel-indicators { display: none; }
+  .jumbotron h1 { font-size: 1.5rem; }
+  .media-left { margin-left: 7rem; } }
+@media (min-width: 576px) and (max-width: 775px) { a.navbar-brand { font-size: 1rem; } }
+@media (min-width: 768px) and (max-width: 992px) { a.navbar-brand { font-size: 1rem; } }
+.jumbotron { background: #fff; padding-bottom: 0; }
+
+.space { padding-top: 5rem; }
+
+.image-box { background: url("../images/b.jpeg") no-repeat; }
+
+.card { padding: 0.75rem; margin-left: 1rem; margin-top: 2rem; margin-bottom: 2rem; }
+.card img { padding: 0.5rem; }
+.card .card-text { font-size: 90%; }
+
+.card:last-child { margin-right: 0.75rem; }
+
+#footer { padding-top: 0.75rem; margin-top: 0.75rem; }
+#footer .ft_title { font-size: 22px; text-transform: uppercase; color: red; font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */
